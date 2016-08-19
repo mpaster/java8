@@ -1,0 +1,4 @@
+
+Àí½â·â×°£¨Encapsulation)
+
+private default protected public

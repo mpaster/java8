@@ -1,0 +1,6 @@
+1.编译 java 源文件时不使用 -d 选项，编译器不会为 Java 源文件生成相应的文件结构。
+2.注：-d 选项用于生成编译生成的 class 文件的存放位置。
+3.Java 的包机制需要两个方面保证：1）源文件里使用 package 语句指定包名；2）class 文件必须放在对应路径下。
+4.javac Hello.java 不会生成相应文件结构，但可以编译,运行时因为没有 文件目录结构故报错。
+5.javac -d . Hello.java , 正确编译，java Hello，运行报错，因为当前目录下无 Hello.class 文件，而应该是 java mpaster.Hello(全类名，相当于指定了文件结构，当前路径下须有个 mpaster 目录)
+6.com.mpaster.elearning.student.dao : com.mpater 域名，elearning 项目名，student 模块名，dao 组件名
